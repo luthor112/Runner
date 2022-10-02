@@ -10,7 +10,7 @@ namespace Runner
     {
         public Vector3 Position = new Vector3(2, 1.8f, 0);
         public Vector3 Direction = new Vector3(0, 0, 1);
-        public Vector3 Up = Vector3.Up; // 0 1 0 -- mi van folfele
+        public Vector3 Up = Vector3.Up; // 0 1 0 -- points upward
         public float NearPlane = 0.01f;
         public float FarPlane = 32;
         public float AspectRatio = 1;
